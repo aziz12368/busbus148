@@ -1,0 +1,300 @@
+*{ padding: 0%;
+    margin: 0;
+    box-sizing: border-box ;
+    }
+    .body {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        margin: 0;
+    }
+    
+    
+    .ss {
+    background-image: url(https://assets.skiesmag.com/wp-content/uploads/2020/01/Airbus-50th-years-anniversary-formation-flight-air-to-air-021.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    .kal {
+    
+     height: 70px; 
+        background-color: rgb(6, 6, 110);
+        
+    }
+   
+
+    .line {
+      position: absolute;
+     width: 20px;
+height: 50px;
+margin-left: 30px;
+    }
+    .line2 {
+      position: absolute;
+      width: 20px;
+      height: 70px;
+      bottom: 0;
+      margin-left: 30px;
+    }
+
+    
+    
+    .Airbus {
+position: absolute;
+width: 200px;
+margin-left: 25px;
+margin-top: 10px;
+bottom: -26px;
+    }
+ 
+
+    .pop {
+        position: absolute;
+        margin-top: 22px;
+        font-size: 20px;
+        margin-left: 90px;
+        border-left: 30px 20px white ;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+   
+    .ford {
+        position: absolute;
+    width: 20px;
+    margin-left: 10px;
+   top: 2px;
+    
+    }
+    .skibidi {
+position: absolute;
+      margin-left: 1200px;
+width: 20px;
+bottom: 1px;
+    }
+    .fff {
+      position: absolute;
+   font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+      
+      color: white;
+      right: 144px;
+    top: 25px;
+   
+    }
+    
+    
+    
+    .ss > h1 {
+      position: absolute;
+       text-align: center;
+      font-size: 100px;
+       color: aliceblue;
+      
+ font-family: monospace;
+
+    margin-left: 230px;
+    }
+    .bus {
+position: absolute;
+width: 30px;
+ align-items: start;
+
+    }
+
+
+    .oposum {
+        position: absolute;
+        right:0;
+        bottom: 0;
+       margin: 20px;
+        color: rgba(251, 253, 254, 0.997);
+       top: 690px;
+       background-color: rgb(6, 6, 110);
+        border-radius: 75px 10px / 40px ;
+        height: 155px;
+      transition: 1s;
+
+
+      }
+      .oposum:hover {
+        transform: scale(1.1)
+
+      }
+
+
+      .bim {
+        border-radius: 75px 10px / 40px ;
+        margin-left: 20px;
+        background-color: rgb(6, 6, 110);
+        position: absolute;
+        height: 250px;
+    color: white;
+    bottom: 230px;
+    transition: 1s;
+      }
+
+      .bim:hover {
+
+        transform: scale(1.1)
+
+      }
+    
+    .faras {
+       
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      margin: 0;
+
+          }
+
+          .container {
+           
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+           gap: 30px;
+           
+
+
+          }
+          
+          .dog1 {
+     
+background-color:  rgb(6, 6, 110);
+width: 460px;
+height: 610px;
+border-radius: 10px;
+transition: 1s;
+animation: anim1 3s;
+}
+#dog1:target {
+  animation: anim1 3s forwards;
+}
+@keyframes anim1 {
+0% {
+  transform: translateX(-150%);
+}
+
+100% {
+  transform: translateX(0%);
+}
+}
+
+.dog1:hover {
+  transform: scale(1.1)
+
+}
+
+.dog2 {
+background-color:  rgb(6, 6, 110);
+width: 460px;
+height: 610px;
+border-radius: 10px;
+transition: 1s;
+
+}
+.dog2:hover {
+  transform: scale(1.1)
+
+}
+
+.dog3 {
+background-color:  rgb(6, 6, 110);
+width: 460px;
+height: 610px;
+border-radius: 10px;
+transition: 1s;
+animation: anim2 3s;
+}
+
+#dog3:target {
+  animation: anim2 3s forwards;
+}
+@keyframes anim2 {
+0% {
+  transform: translateX(150%);
+}
+
+100% {
+  transform: translateX(0%);
+}
+}
+
+.dog3:hover {
+  transform: scale(1.1)
+
+}
+
+.mo {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+
+}
+
+
+.bark {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+
+}
+.dsj {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+}
+
+.buka {
+	
+  font-family: monospace;
+  color: white;
+  font-size: 30px;
+text-align: center;
+}
+
+.ios {
+ 
+  font-family: monospace;
+
+  color: white;
+  font-size: 30px;
+text-align: center;
+}
+
+.ssh {
+ font-family: monospace;
+
+  color: white;
+  font-size: 30px;
+text-align: center;
+}
+.final {
+ 
+font-size: medium;
+text-align: center;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+.fredd {
+  width: 100px;
+  height: 100px;
+  margin-left: 1130px;
+  margin-top: 10px;
+}
+
+
+
+
+         
